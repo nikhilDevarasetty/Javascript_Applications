@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="humanVerificationSty.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="initialise()">
+    <div class="container">
+      <div class="row">
+        <div class="col" onclick="select(this)">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/401_Gridlock.jpg/800px-401_Gridlock.jpg"
+            alt="randImage"
+            class="image"
+            id="1"
+          />
+          <div class="middle hidden">
+            <div class="tick"><span>&#10004;</span></div>
+          </div>
+        </div>
+        <div class="col" onclick="select(this)">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/401_Gridlock.jpg/800px-401_Gridlock.jpg"
+            alt="randImage"
+            class="image"
+            id="2"
+          />
+          <div class="middle hidden">
+            <div class="tick"><span>&#10004;</span></div>
+          </div>
+        </div>
+        <div class="col" onclick="select(this)">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/401_Gridlock.jpg/800px-401_Gridlock.jpg"
+            alt="randImage"
+            class="image"
+            id="3"
+          />
+          <div class="middle hidden">
+            <div class="tick"><span>&#10004;</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col" onclick="select(this)">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/401_Gridlock.jpg/800px-401_Gridlock.jpg"
+            alt="randImage"
+            class="image"
+            id="4"
+          />
+          <div class="middle hidden">
+            <div class="tick"><span>&#10004;</span></div>
+          </div>
+        </div>
+        <div class="col" onclick="select(this)">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/401_Gridlock.jpg/800px-401_Gridlock.jpg"
+            alt="randImage"
+            class="image"
+            id="5"
+          />
+          <div class="middle hidden">
+            <div class="tick"><span>&#10004;</span></div>
+          </div>
+        </div>
+        <div class="col" onclick="select(this)">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/401_Gridlock.jpg/800px-401_Gridlock.jpg"
+            alt="randImage"
+            class="image"
+            id="6"
+          />
+          <div class="middle hidden">
+            <div class="tick"><span>&#10004;</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="btns">
+        <button class="button disable" id="reset" onclick="reset()">
+          RESET
+        </button>
+        <button class="button disable" id="verify" onclick="verify()">
+          VERIFY
+        </button>
+      </div>
+    </div>
+    <div class="resWindow hidden">
+      <button class="close-button">&times;</button>
+      <h2></h2>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+  <script src="humanVerificationJs.js"></script>
+</html>
