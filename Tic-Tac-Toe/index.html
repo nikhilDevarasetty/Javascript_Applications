@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="res"><p></p></div>
+    <div class="container">
+      <div class="row 0">
+        <button class="col" id="1" onclick="game('1','0','0')"></button>
+        <button class="col" id="2" onclick="game('2','0','1')"></button>
+        <button class="col" id="3" onclick="game('3','0','2')"></button>
+      </div>
+      <div class="row 1">
+        <button class="col" id="4" onclick="game('4','1','0')"></button>
+        <button class="col" id="5" onclick="game('5','1','1')"></button>
+        <button class="col" id="6" onclick="game('6','1','2')"></button>
+      </div>
+      <div class="row 2">
+        <button class="col" id="7" onclick="game('7','2','0')"></button>
+        <button class="col" id="8" onclick="game('8','2','1')"></button>
+        <button class="col" id="9" onclick="game('9','2','2')"></button>
+      </div>
+    </div>
+
+    <div class="btn-container">
+      <button type="button" id="btn" onclick="reset()">
+        <span>Reset</span>
+      </button>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
